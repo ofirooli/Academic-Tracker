@@ -1,0 +1,58 @@
+/* Table Styling - tables.css */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.05); /* Slight shadow for separation */
+}
+
+  .table thead {
+    background-color: #f8e8f3; /* Soft pink header */
+    color: #8A56AC; /* Modern purple text */
+    font-weight: 600;
+  }
+  
+  .table th, .table td {
+    padding: 15px 20px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .table tbody tr {
+    background-color: #ffffff; /* Clean white rows */
+    transition: background-color 0.3s ease; /* Hover effect */
+  }
+  
+  .table tbody tr:hover {
+    background-color: #f0d9e8; /* Soft pink row on hover */
+  }
+  
+  .table th {
+    text-align: center; /* Center align the header text */
+  }
+  
+  .table td {
+    text-align: right; /* Align data to the right */
+  }
+  
+  th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-family: 'Heebo', sans-serif;
+}
+
+th {
+    background-color: #f4e1f7;
+    color: #8A56AC;
+    font-weight: 600;
+}
+
+td {
+    background-color: #ffffff;
+    color: #4a4a4a;
+}
+
+tr:hover {
+    background-color: #f9e1f7; /* Light highlight on hover */
+}
